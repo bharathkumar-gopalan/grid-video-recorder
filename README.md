@@ -1,7 +1,7 @@
 # grid-video-recorder
 <h3>Grid Video recorder :</h3>
 This extension enables to do a video recording of running test cases in a selenium grid , 
-For demonstration purpose it has a Screen recorder that uses Monte Media library (http://www.randelshofer.ch/monte/) to create .mov files of the test automation running in selenium node . To view the licenseing information of the recorder please refer to http://www.randelshofer.ch/monte/license.html
+For demonstration purpose it has a Screen recorder that uses Monte Media library (http://www.randelshofer.ch/monte/) to create .mov files of the test automation running in selenium node . To view the licenseing information of the monte media library please refer to http://www.randelshofer.ch/monte/license.html
 
 
 <p>Configuration Steps</p>  
