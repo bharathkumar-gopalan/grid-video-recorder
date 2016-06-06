@@ -6,10 +6,10 @@ For demonstration purpose it has a Screen recorder that uses Monte Media library
 
 <p>Configuration Steps</p>  
 <ul>
-<li>Create a new folder 
-<li>Download the jar (grid-video-recorder.jar) into the folder 
-<li>Download the selenium standalone server .jar into the folder 
-<li>Download monte media library jar file from http://www.randelshofer.ch/monte/
+<li>Create a new folder (for example named recorder)
+<li>Download the jar (grid-video-recorder.jar) into the folder(recorder)
+<li>Download the selenium standalone server .jar into the folder(recorder)
+<li>Download monte media library jar file from http://www.randelshofer.ch/monte/ into the folder (recorder)
 <li> launch the selenium hub with the following command "java -cp *:. org.openqa.grid.selenium.GridLauncher -role hub"
 <li> launch the selenium node with the following command "java -cp *:. org.openqa.grid.selenium.GridLauncher -role node -proxy io.nirvagi.utils.node.proxy.ScreenRecordingProxy -servlets io.nirvagi.utils.servlet.RecorderServlet"
 </ul>
