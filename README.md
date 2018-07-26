@@ -17,9 +17,11 @@ For demonstration purpose it has a Screen recorder that uses Monte Media library
 
 <h4>Calling the recorder in the client code</h4>
 <p>
-The recorder uses two desired capabilities node_screen_recording which must be set to true to enable recording . By default the recorder stops recording after 180 seconds . This can be configured with the desired capabiliy node_recording_timeout
+The recorder uses two desired capabilities node_screen_recording which must be set to true to enable recording . By default the recorder stops recording after 180 seconds . This can be configured with the desired capabiliy node_recording_timeout. The following example in java demonstrates how to use the recorder 
 </p>
-The following example in java demonstrates how to use the recorder 
+
+
+
 ```java
 public static void main(String args[]) throws Exception{
 		DesiredCapabilities caps = DesiredCapabilities.firefox();
@@ -33,6 +35,7 @@ public static void main(String args[]) throws Exception{
 		d.quit();		
 	}
 ```
+
 
 The recording can be viewed by accessing the node (For example assuming that the node is running in localhost , 
 	the video files can be viewed at localhost:5555/extra/RecorderServlet) 
